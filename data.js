@@ -42,7 +42,7 @@ const users = [
   },
   {
     nickname: "@Lanagred",
-    birthday: "",
+    birthday: "20.08",
   },
   {
     nickname: "@Afterglow23",
@@ -50,7 +50,7 @@ const users = [
   },
   {
     nickname: "@Kingslvyxr",
-    birthday: "",
+    birthday: "13.02",
   },
   //test users
   {
