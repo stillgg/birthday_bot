@@ -1,5 +1,9 @@
 const users = [
   {
+    nickname: "@Kingslvyxr",
+    birthday: "13.02",
+  },
+  {
     nickname: "@achendev",
     birthday: "18.02",
   },
@@ -20,6 +24,10 @@ const users = [
     birthday: "11.06",
   },
   {
+    nickname: "@Afterglow23",
+    birthday: "12.06",
+  },
+  {
     nickname: "@simagin",
     birthday: "24.06",
   },
@@ -28,29 +36,20 @@ const users = [
     birthday: "03.07",
   },
   {
-    nickname: "@AlexAvardo",
-    birthday: "19.10",
-  },
-  {
-    nickname: "@dmurzin",
-    birthday: "20.11",
-  },
-  //unknown
-  {
-    nickname: "@Profesor08",
-    birthday: "",
-  },
-  {
     nickname: "@Lanagred",
     birthday: "20.08",
   },
   {
-    nickname: "@Afterglow23",
-    birthday: "",
+    nickname: "@AlexAvardo",
+    birthday: "19.10",
   },
   {
-    nickname: "@Kingslvyxr",
-    birthday: "13.02",
+    nickname: "@Profesor08",
+    birthday: "19.11",
+  },
+  {
+    nickname: "@dmurzin",
+    birthday: "20.11",
   },
   //test users
   {
