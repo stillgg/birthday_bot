@@ -15,7 +15,7 @@ const every5Second = "*/5 * * * * *";
 
 const generateRandomImage = () => `img${randomIntFromInterval(1, 40)}.jpeg`;
 
-const job = new CronJob(everyDay, function () {
+const job = new CronJob(everyMinute, function () {
   const currentDate = getCurrentDate();
 
   for (user of users) {
