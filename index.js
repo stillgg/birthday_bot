@@ -1,5 +1,7 @@
-require("dotenv").config();
 require("bluebird");
+
+require("dotenv").config();
+
 const token = process.env.TOKEN;
 const chatId = process.env.TEST_CHAT_ID;
 
