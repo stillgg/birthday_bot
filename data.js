@@ -64,6 +64,10 @@ const users = [
     nickname: "@test3",
     birthday: "05.05",
   },
+  {
+    nickname: "@test3",
+    birthday: "05.06",
+  },
 ];
 
 module.exports = { users };

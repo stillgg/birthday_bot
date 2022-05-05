@@ -26,7 +26,7 @@ const job = new CronJob(everyMinute, function () {
         bot.sendMessage(
           chatId,
           `
-          <b>Happy birthday ${user.name}!!!</b>
+          <b>Happy birthday ${user.nickname}!!!</b>
           `,
           {
             parse_mode: "HTML",
