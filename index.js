@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const token = process.env.TOKEN;
-const chatId = process.env.TEST_CHAT_ID;
+const chatId = process.env.PRODUCKTV_DEV_CHAT_ID;
 
 const TelegramBot = require("node-telegram-bot-api");
 const CronJob = require("cron").CronJob;
