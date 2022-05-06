@@ -10,13 +10,13 @@ const bot = new TelegramBot(token, { polling: true });
 const { randomIntFromInterval, getCurrentDate } = require("./helpers");
 const { users } = require("./data");
 
-const everyDay = "0 0 */11 * * *";
+const everyDay = "0 0 */10 * * *";
 const everyMinute = "0 */1 * * * *";
 const every5Second = "*/5 * * * * *";
 
 const generateRandomImage = () => `img${randomIntFromInterval(1, 40)}.jpeg`;
 
-const job = new CronJob(everyMinute, function () {
+const job = new CronJob(everyDay, function () {
   const currentDate = getCurrentDate();
 
   for (user of users) {
