@@ -10,7 +10,7 @@ const bot = new TelegramBot(token, { polling: true });
 const { randomIntFromInterval, getCurrentDate } = require("./helpers");
 const { users } = require("./data");
 
-const everyDay = "0 0 */10 * * *";
+const everyDay = "0 10 * * *";
 const everyMinute = "0 */1 * * * *";
 const every5Second = "*/5 * * * * *";
 
