@@ -5,6 +5,9 @@ const randomIntFromInterval = (min, max) => {
 const getCurrentDate = () => {
   const currentDate = new Date().toISOString().slice(0, 10);
   const [year, month, day] = currentDate.split("-");
+
+  console.log("result", `${day}.${month}`);
+
   return `${day}.${month}`;
 };
 

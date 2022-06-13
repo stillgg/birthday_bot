@@ -28,6 +28,66 @@ const users = [
     birthday: "12.06",
   },
   {
+    nickname: "@testUser1",
+    birthday: "13.06",
+  },
+  {
+    nickname: "@testUser2",
+    birthday: "13.06",
+  },
+  {
+    nickname: "@testUser2(1)",
+    birthday: "13.06",
+  },
+  {
+    nickname: "@testUser2",
+    birthday: "14.06",
+  },
+  {
+    nickname: "@testUser3",
+    birthday: "15.06",
+  },
+  {
+    nickname: "@testUser4",
+    birthday: "16.06",
+  },
+  {
+    nickname: "@testUser4(1)",
+    birthday: "16.06",
+  },
+  {
+    nickname: "@testUser5",
+    birthday: "17.06",
+  },
+  {
+    nickname: "@testUser5(1)",
+    birthday: "17.06",
+  },
+  {
+    nickname: "@testUser6",
+    birthday: "18.06",
+  },
+  {
+    nickname: "@testUser6(1)",
+    birthday: "18.06",
+  },
+  {
+    nickname: "@testUser7",
+    birthday: "19.06",
+  },
+  {
+    nickname: "@testUser7(1)",
+    birthday: "19.06",
+  },
+  {
+    nickname: "@testUser8",
+    birthday: "20.06",
+  },
+  {
+    nickname: "@testUser8(1)",
+    birthday: "20.06",
+  },
+  {
     nickname: "@simagin",
     birthday: "24.06",
   },
