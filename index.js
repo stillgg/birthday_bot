@@ -22,8 +22,9 @@ const job = new CronJob(everyDay, async function () {
 
   for (user of users) {
     if (user.birthday === currentDate) {
-      const img = generateRandomImage();
       try {
+        const img = generateRandomImage();
+
         await bot.sendPhoto(chatId, `./assets/${img}`);
 
         await bot.sendMessage(
